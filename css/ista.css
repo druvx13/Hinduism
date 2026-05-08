@@ -4,3 +4,7 @@
 body{font-family:Georgia,"Times New Roman",serif;line-height:1.5;color:#111;background:#fff;}
 img{max-width:100%;height:auto;}
 table{max-width:100%;}
+/* Hide legacy mirrored-site sidebars */
+table[align="left"],table[align="right"]{display:none!important;}
+table[width="800"] td[width="200"],table[width="800"] td[width="160"],table[width="800"] td[width="2"]{display:none!important;}
+table[width="800"] td[width="470"],table[width="800"] td[width="600"]{width:auto!important;}

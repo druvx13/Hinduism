@@ -6,3 +6,7 @@ a{color:#0645ad;text-decoration:none;}
 a:hover,a:focus{text-decoration:underline;}
 center,table{max-width:100%;}
 .filenav{word-break:break-word;}
+/* Hide legacy mirrored-site sidebars */
+table[align="left"],table[align="right"]{display:none!important;}
+table[width="800"] td[width="200"],table[width="800"] td[width="160"],table[width="800"] td[width="2"]{display:none!important;}
+table[width="800"] td[width="470"],table[width="800"] td[width="600"]{width:auto!important;}
